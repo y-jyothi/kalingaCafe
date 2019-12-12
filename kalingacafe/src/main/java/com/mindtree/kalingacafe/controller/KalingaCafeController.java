@@ -34,7 +34,7 @@ public class KalingaCafeController {
 		return "cafe";
 		
 	}
-	
+	//Hi thi is 
 	@GetMapping(value="/Cafes/{managerId}")
 	public List<Cafe> getCafes(@PathVariable int managerId)
 	{
